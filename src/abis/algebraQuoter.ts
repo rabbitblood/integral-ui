@@ -1,231 +1,231 @@
 export const algebraQuoterABI = [
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "address",
-        "name": "_factory",
-        "type": "address"
+        internalType: "address",
+        name: "_factory",
+        type: "address",
       },
       {
-        "internalType": "address",
-        "name": "_WNativeToken",
-        "type": "address"
+        internalType: "address",
+        name: "_WNativeToken",
+        type: "address",
       },
       {
-        "internalType": "address",
-        "name": "_poolDeployer",
-        "type": "address"
-      }
+        internalType: "address",
+        name: "_poolDeployer",
+        type: "address",
+      },
     ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
+    stateMutability: "nonpayable",
+    type: "constructor",
   },
   {
-    "inputs": [],
-    "name": "WNativeToken",
-    "outputs": [
+    inputs: [],
+    name: "WNativeToken",
+    outputs: [
       {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
     ],
-    "stateMutability": "view",
-    "type": "function"
+    stateMutability: "view",
+    type: "function",
   },
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "int256",
-        "name": "amount0Delta",
-        "type": "int256"
+        internalType: "int256",
+        name: "amount0Delta",
+        type: "int256",
       },
       {
-        "internalType": "int256",
-        "name": "amount1Delta",
-        "type": "int256"
+        internalType: "int256",
+        name: "amount1Delta",
+        type: "int256",
       },
       {
-        "internalType": "bytes",
-        "name": "path",
-        "type": "bytes"
-      }
+        internalType: "bytes",
+        name: "path",
+        type: "bytes",
+      },
     ],
-    "name": "algebraSwapCallback",
-    "outputs": [],
-    "stateMutability": "view",
-    "type": "function"
+    name: "algebraSwapCallback",
+    outputs: [],
+    stateMutability: "view",
+    type: "function",
   },
   {
-    "inputs": [],
-    "name": "factory",
-    "outputs": [
+    inputs: [],
+    name: "factory",
+    outputs: [
       {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
     ],
-    "stateMutability": "view",
-    "type": "function"
+    stateMutability: "view",
+    type: "function",
   },
   {
-    "inputs": [],
-    "name": "poolDeployer",
-    "outputs": [
+    inputs: [],
+    name: "poolDeployer",
+    outputs: [
       {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
     ],
-    "stateMutability": "view",
-    "type": "function"
+    stateMutability: "view",
+    type: "function",
   },
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "bytes",
-        "name": "path",
-        "type": "bytes"
+        internalType: "bytes",
+        name: "path",
+        type: "bytes",
       },
       {
-        "internalType": "uint256",
-        "name": "amountIn",
-        "type": "uint256"
-      }
+        internalType: "uint256",
+        name: "amountIn",
+        type: "uint256",
+      },
     ],
-    "name": "quoteExactInput",
-    "outputs": [
+    name: "quoteExactInput",
+    outputs: [
       {
-        "internalType": "uint256",
-        "name": "amountOut",
-        "type": "uint256"
+        internalType: "uint256",
+        name: "amountOut",
+        type: "uint256",
       },
       {
-        "internalType": "uint16[]",
-        "name": "fees",
-        "type": "uint16[]"
-      }
+        internalType: "uint16[]",
+        name: "fees",
+        type: "uint16[]",
+      },
     ],
-    "stateMutability": "nonpayable",
-    "type": "function"
+    stateMutability: "nonpayable",
+    type: "function",
   },
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "address",
-        "name": "tokenIn",
-        "type": "address"
+        internalType: "address",
+        name: "tokenIn",
+        type: "address",
       },
       {
-        "internalType": "address",
-        "name": "tokenOut",
-        "type": "address"
+        internalType: "address",
+        name: "tokenOut",
+        type: "address",
       },
       {
-        "internalType": "address",
-        "name": "deployer",
-        "type": "address"
+        internalType: "address",
+        name: "deployer",
+        type: "address",
       },
       {
-        "internalType": "uint256",
-        "name": "amountIn",
-        "type": "uint256"
+        internalType: "uint256",
+        name: "amountIn",
+        type: "uint256",
       },
       {
-        "internalType": "uint160",
-        "name": "limitSqrtPrice",
-        "type": "uint160"
-      }
+        internalType: "uint160",
+        name: "limitSqrtPrice",
+        type: "uint160",
+      },
     ],
-    "name": "quoteExactInputSingle",
-    "outputs": [
+    name: "quoteExactInputSingle",
+    outputs: [
       {
-        "internalType": "uint256",
-        "name": "amountOut",
-        "type": "uint256"
+        internalType: "uint256",
+        name: "amountOut",
+        type: "uint256",
       },
       {
-        "internalType": "uint16",
-        "name": "fee",
-        "type": "uint16"
-      }
+        internalType: "uint16",
+        name: "fee",
+        type: "uint16",
+      },
     ],
-    "stateMutability": "nonpayable",
-    "type": "function"
+    stateMutability: "nonpayable",
+    type: "function",
   },
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "bytes",
-        "name": "path",
-        "type": "bytes"
+        internalType: "bytes",
+        name: "path",
+        type: "bytes",
       },
       {
-        "internalType": "uint256",
-        "name": "amountOut",
-        "type": "uint256"
-      }
+        internalType: "uint256",
+        name: "amountOut",
+        type: "uint256",
+      },
     ],
-    "name": "quoteExactOutput",
-    "outputs": [
+    name: "quoteExactOutput",
+    outputs: [
       {
-        "internalType": "uint256",
-        "name": "amountIn",
-        "type": "uint256"
+        internalType: "uint256",
+        name: "amountIn",
+        type: "uint256",
       },
       {
-        "internalType": "uint16[]",
-        "name": "fees",
-        "type": "uint16[]"
-      }
+        internalType: "uint16[]",
+        name: "fees",
+        type: "uint16[]",
+      },
     ],
-    "stateMutability": "nonpayable",
-    "type": "function"
+    stateMutability: "nonpayable",
+    type: "function",
   },
   {
-    "inputs": [
+    inputs: [
       {
-        "internalType": "address",
-        "name": "tokenIn",
-        "type": "address"
+        internalType: "address",
+        name: "tokenIn",
+        type: "address",
       },
       {
-        "internalType": "address",
-        "name": "tokenOut",
-        "type": "address"
+        internalType: "address",
+        name: "tokenOut",
+        type: "address",
       },
       {
-        "internalType": "address",
-        "name": "deployer",
-        "type": "address"
+        internalType: "address",
+        name: "deployer",
+        type: "address",
       },
       {
-        "internalType": "uint256",
-        "name": "amountOut",
-        "type": "uint256"
+        internalType: "uint256",
+        name: "amountOut",
+        type: "uint256",
       },
       {
-        "internalType": "uint160",
-        "name": "limitSqrtPrice",
-        "type": "uint160"
-      }
+        internalType: "uint160",
+        name: "limitSqrtPrice",
+        type: "uint160",
+      },
     ],
-    "name": "quoteExactOutputSingle",
-    "outputs": [
+    name: "quoteExactOutputSingle",
+    outputs: [
       {
-        "internalType": "uint256",
-        "name": "amountIn",
-        "type": "uint256"
+        internalType: "uint256",
+        name: "amountIn",
+        type: "uint256",
       },
       {
-        "internalType": "uint16",
-        "name": "fee",
-        "type": "uint16"
-      }
+        internalType: "uint16",
+        name: "fee",
+        type: "uint16",
+      },
     ],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  }
-] as const
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+] as const;

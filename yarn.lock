@@ -555,9 +555,9 @@
     util "^0.12.4"
 
 "@cryptoalgebra/sdk@npm:@rabbitblood/intergral-sdk-hpot":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@rabbitblood/intergral-sdk-hpot/-/intergral-sdk-hpot-1.0.4.tgz#7971a12fbe86ef17826a6928a414e32f403a4bc0"
-  integrity sha512-z3XsuMEFjHDZUTGTOJfFkRtygPY+tFLqnghKQewGXnF6BsJqz6aR3LIdNdP45f1LAsD+1PRrK3o/isM8nBipag==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@rabbitblood/intergral-sdk-hpot/-/intergral-sdk-hpot-1.0.5.tgz#084396f66fae76243db51111fa3231b942f221a6"
+  integrity sha512-hKH4zTh7SVVWDmXzSbyh8ktbBNUPX09/r9GywfkpgdSIbq3zkU4+sFl9BzaH3e9fy7UYKsUBjg8yXefEHuUthA==
   dependencies:
     "@ethersproject/abi" "^5.7.0"
     "@ethersproject/address" "^5.7.0"
